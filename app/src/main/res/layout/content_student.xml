@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-10dp"
+    android:background="@drawable/bg5"
+    app:flow_wrapMode="none">
+
+
+    <FrameLayout
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/scroll"
+        android:backgroundTint="#FCFFFFFF">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageWave"
+        android:layout_width="37dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="174dp"
+        android:layout_marginRight="174dp"
+        android:layout_marginBottom="560dp"
+        app:srcCompat="@drawable/wave" />
+
+    <TextView
+        android:id="@+id/textCourses"
+        android:layout_width="418dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-7dp"
+        android:layout_marginRight="-7dp"
+        android:layout_marginBottom="421dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="FEATURES"
+        android:textColor="#FAFFFA"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="71dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="     Welcome"
+            android:textColor="#4CAF50"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="         Let's start learning!"
+            android:textColor="#4CAF50"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="287dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="129dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/completed_selected"
+            android:backgroundTint="#C44CAF50"
+            android:orientation="horizontal"
+            android:paddingLeft="-20dp"
+            android:paddingRight="-20dp">
+
+            <ImageView
+                android:id="@+id/homework"
+                android:layout_width="239dp"
+                android:layout_height="281dp"
+                android:layout_margin="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/hw" />
+
+            <ImageView
+                android:id="@+id/classes"
+                android:layout_width="242dp"
+                android:layout_height="281dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cl" />
+
+            <ImageView
+                android:id="@+id/teacher"
+                android:layout_width="223dp"
+                android:layout_height="272dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/teachericon" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textTODO"
+        android:layout_width="372dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Check your tasks, classes and teachers using the application drawer!"
+        android:textColor="#FCFFFD"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
+
+
+

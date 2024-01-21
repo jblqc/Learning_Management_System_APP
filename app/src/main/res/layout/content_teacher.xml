@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_teacher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="-50dp"
+    android:layout_marginTop="-100dp"
+    android:layout_marginRight="-50dp"
+    android:layout_marginBottom="-50dp"
+    android:background="#ADE36F"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="-22dp"
+        android:contentDescription="@string/welcomeimg"
+        app:srcCompat="@drawable/wcteacher"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="213dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="136dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/create_a_class"
+        android:textColor="#064508"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="366dp"
+        android:layout_height="139dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="67dp"
+        android:gravity="center"
+        android:text="@string/create_a_class_info"
+        android:textColor="#0D220E"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="370dp"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="182dp"
+        android:background="@drawable/round_corner"
+        android:backgroundTint="#5EFDFDFD"
+        android:backgroundTintMode="src_in" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="354dp"
+        android:layout_height="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="68dp"
+        android:gravity="center"
+        android:text="@string/create_hw_info"
+        android:textColor="#0D220E"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="284dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="304dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/create_a_homework"
+        android:textColor="#064508"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="370dp"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/round_corner"
+        android:backgroundTint="#5EFDFDFD"
+        android:backgroundTintMode="src_in" />
+
+</RelativeLayout>
